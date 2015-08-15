@@ -7,12 +7,13 @@
 # @return data.frame
 buildFrame <- function(directory = character(),
                        features = character(),
-                       activities = character()) {
+                       activities = character(),
+                       subsetVector = int()) {
   
   # Create proper file paths
-  subjects <- file.path(directory, paste("subject_", basename(directory), ".txt", sep = ""))
-  x <- file.path(directory, paste("X_", basename(directory), ".txt", sep = ""))
-  y <- file.path(directory, paste("y_", basename(directory), ".txt", sep = ""))
+  subjects <- file.path(directory, paste0("subject_", basename(directory), ".txt"))
+  x <- file.path(directory, paste0("X_", basename(directory), ".txt"))
+  y <- file.path(directory, paste0("y_", basename(directory), ".txt"))
 
   # Read in the files
   df.subjects <- read.table(subjects)
@@ -22,6 +23,9 @@ buildFrame <- function(directory = character(),
   # Set the names for the features in x
   names(df.x) = features
   
+  # Subset the x dataframe
+  df.x <- df.x[,subsetVector]
+  
   df.data <- data.frame("subject" = df.subjects[,1],
                           "activity" = activities[df.y[,1]],
                           df.x)
@@ -30,14 +34,19 @@ buildFrame <- function(directory = character(),
 features <- read.table("features.txt")
 activities <- read.table("activity_labels.txt")
 dirs <- list.dirs(recursive = FALSE)
+subsetVector <- features[grep("mean[()]|std[()]", features[,2]),1]
 
 # Create a list that will hold our data frames
 data <- list()
 
+# Build the data frames
 for(i in 1:length(dirs)) {
-  data[[i]] <- buildFrame(dirs[i], features[,2], activities[,2])
+  data[[i]] <- buildFrame(dirs[i], features[,2], activities[,2], subsetVector)
 }
 
 # Build the complete data frame and sort it by subject
 data.complete <- rbind(data[[1]], data[[2]])
 data.complete <- data.complete[order(data.complete$subject), ]
+
+# Save the tidy data
+write.table(data.complete, file = "tidy.txt", row.names = FALSE)
