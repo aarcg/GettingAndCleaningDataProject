@@ -1,6 +1,7 @@
-source("./HelperFunctions/clean_names.R")
-source("./HelperFunctions/build_frame.R")
-runAnalysis <- function(dataDir = ".") {
+source("./R/clean_names.R")
+source("./R/build_frame.R")
+
+runAnalysis <- function(dataDir = "data/UCI HAR Dataset") {
   
   features <- read.table(file.path(dataDir, "features.txt"), stringsAsFactors = FALSE)
   activities <- read.table(file.path(dataDir, "activity_labels.txt"))
@@ -26,6 +27,6 @@ runAnalysis <- function(dataDir = ".") {
   data.complete <- data.complete[order(data.complete$subject), ]
   
   # Save the tidy data
-  print(paste("saving tidy data to", file.path(getwd(), "tidy.txt")))
-  write.table(data.complete, file = "tidy.txt", row.names = FALSE)
+  print(paste("saving tidy data to", file.path(getwd(), "output", "tidy.txt")))
+  write.table(data.complete, file = file.path("output", "tidy.txt"), row.names = FALSE)
 }
