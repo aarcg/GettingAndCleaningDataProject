@@ -1,8 +1,10 @@
 # GettingAndCleaningDataProject
 
 ## Description
-This set of scripts is used to clean and analyse data obtained from the following url - 
+This set of scripts is used to clean and analyze data obtained from the following url - 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+A more complete description of the experiment, along with the original data, can be found at the following site: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ## Usage
 1. Clone this repository using "git clone https://github.com/aarcg/GettingAndCleaningDataProject.git"
