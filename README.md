@@ -7,7 +7,7 @@ A more complete description of the experiment, along with the original data, can
 
 ## Usage
 1. Clone this repository using:
-  -"git clone https://github.com/aarcg/GettingAndCleaningDataProject.git"
+  *"git clone https://github.com/aarcg/GettingAndCleaningDataProject.git"
 2. Change to the GettingAndCleaningDataProject" directory (ex. cd GettingAndCleaningDataProject).
 3. Download the data from the following url: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
   -The data can be stored in either your current working directory (GettingAndCleaningDataProject), or in the "data" directory. The data can remain zipped or be unzipped as long as the following naming conventions are followed.
