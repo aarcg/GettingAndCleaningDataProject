@@ -108,7 +108,19 @@ Each axis is separated and a mean and standard deviation are determined. The val
   - timeBodyGyroJerkStandardDeviationZ
 
 ###tBodyAccMag
+Time domain body acceleration magnitude.
+A mean and standard deviation are determined for the signal. The values are numeric, and range from -1 to +1. The variables in the dataset are named as follows:
+
+  - timeBodyAccelerationMagnitudeMean
+  - timeBodyAccelerationMagnitudeStandardDeviation
+
 ###tGravityAccMag
+Time domain acceleration due to gravity magnitude.
+A mean and standard deviation are determined for the signal. The values are numeric, and range from -1 to +1. The variables in the dataset are named as follows:
+
+  - timeGravityAccelerationMagnitudeMean
+  - timeGravityAccelerationMagnitudeStandardDeviation
+
 ###tBodyAccJerkMag
 ###tBodyGyroMag
 ###tBodyGyroJerkMag
@@ -121,12 +133,6 @@ Each axis is separated and a mean and standard deviation are determined. The val
 ###fBodyGyroJerkMag
 
 
-
-
-## timeBodyAccelerationMagnitudeMean
-## timeBodyAccelerationMagnitudeStandardDeviation
-## timeGravityAccelerationMagnitudeMean
-## timeGravityAccelerationMagnitudeStandardDeviation
 ## timeBodyAccelerationJerkMagnitudeMean
 ## timeBodyAccelerationJerkMagnitudeStandardDeviation
 ## timeBodyGyroMagnitudeMean
