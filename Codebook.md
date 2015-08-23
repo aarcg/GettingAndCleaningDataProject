@@ -166,28 +166,40 @@ Each axis is separated and a mean and standard deviation are determined. The val
   - frequencyBodyAccelerationJerkStandardDeviationZ
 
 ###fBodyGyro-XYZ
+Frequency domain body gyro value in XYZ axes.
+Each axis is separated and a mean and standard deviation are determined. The values are numeric, and range from -1 to +1. The variables in the dataset are named as follows:
+
+  - frequencyBodyGyroMeanX
+  - frequencyBodyGyroMeanY
+  - frequencyBodyGyroMeanZ
+  - frequencyBodyGyroStandardDeviationX
+  - frequencyBodyGyroStandardDeviationY
+  - frequencyBodyGyroStandardDeviationZ
+
 ###fBodyAccMag
+Frequency domain body acceleratoin magnitude.
+A mean and standard deviation are determined for the signal. The values are numeric, and range from -1 to +1. The variables in the dataset are named as follows:
+
+  - frequencyBodyAccelerationMagnitudeMean
+  - frequencyBodyAccelerationMagnitudeStandardDeviation
+
 ###fBodyAccJerkMag
+Frequency domain body acceleratoin jerk magnitude.
+A mean and standard deviation are determined for the signal. The values are numeric, and range from -1 to +1. The variables in the dataset are named as follows:
+
+  - frequencyBodyAccelerationJerkMagnitudeMean
+  - frequencyBodyAccelerationJerkMagnitudeStandardDeviation
+
 ###fBodyGyroMag
+Frequency domain body gyro magnitude.
+A mean and standard deviation are determined for the signal. The values are numeric, and range from -1 to +1. The variables in the dataset are named as follows:
+
+  - frequencyBodyGyroMagnitudeMean
+  - frequencyBodyGyroMagnitudeStandardDeviation
+
 ###fBodyGyroJerkMag
+Frequency domain body gyro jerk magnitude.
+A mean and standard deviation are determined for the signal. The values are numeric, and range from -1 to +1. The variables in the dataset are named as follows:
 
-
-
-
-
-
-
-## frequencyBodyGyroMeanX
-## frequencyBodyGyroMeanY
-## frequencyBodyGyroMeanZ
-## frequencyBodyGyroStandardDeviationX
-## frequencyBodyGyroStandardDeviationY
-## frequencyBodyGyroStandardDeviationZ
-## frequencyBodyAccelerationMagnitudeMean
-## frequencyBodyAccelerationMagnitudeStandardDeviation
-## frequencyBodyAccelerationJerkMagnitudeMean
-## frequencyBodyAccelerationJerkMagnitudeStandardDeviation
-## frequencyBodyGyroMagnitudeMean
-## frequencyBodyGyroMagnitudeStandardDeviation
-## frequencyBodyGyroJerkMagnitudeMean
-## frequencyBodyGyroJerkMagnitudeStandardDeviation
+  - frequencyBodyGyroJerkMagnitudeMean
+  - frequencyBodyGyroJerkMagnitudeStandardDeviation
