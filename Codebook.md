@@ -63,29 +63,33 @@ Each axis is seperated and a mean and standard deviation are determined. The val
   - timeBodyAccelerationStandardDeviationY
   - timeBodyAccelerationStandardDeviationZ
 
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+###tGravityAcc-XYZ
+Time domain accelleration due to gravity in XYZ axes.
+Each axis is seperated and a mean and standard deviation are determined. The values are numeric, and range from -1 to +1. The variables in the dataset are named as followes:
 
-## timeGravityAccelerationMeanX
-## timeGravityAccelerationMeanY
-## timeGravityAccelerationMeanZ
-## timeGravityAccelerationStandardDeviationX
-## timeGravityAccelerationStandardDeviationY
-## timeGravityAccelerationStandardDeviationZ
+  - timeGravityAccelerationMeanX
+  - timeGravityAccelerationMeanY
+  - timeGravityAccelerationMeanZ
+  - timeGravityAccelerationStandardDeviationX
+  - timeGravityAccelerationStandardDeviationY
+  - timeGravityAccelerationStandardDeviationZ
+
+###tBodyAccJerk-XYZ
+###tBodyGyro-XYZ
+###tBodyGyroJerk-XYZ
+###tBodyAccMag
+###tGravityAccMag
+###tBodyAccJerkMag
+###tBodyGyroMag
+###tBodyGyroJerkMag
+###fBodyAcc-XYZ
+###fBodyAccJerk-XYZ
+###fBodyGyro-XYZ
+###fBodyAccMag
+###fBodyAccJerkMag
+###fBodyGyroMag
+###fBodyGyroJerkMag
+
 ## timeBodyAccelerationJerkMeanX
 ## timeBodyAccelerationJerkMeanY
 ## timeBodyAccelerationJerkMeanZ
