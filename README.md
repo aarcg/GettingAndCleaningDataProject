@@ -12,12 +12,12 @@ A more complete description of the experiment, along with the original data, can
 ## Usage
 1. Clone this repository using:
   - "git clone https://github.com/aarcg/GettingAndCleaningDataProject.git"
-2. Change to the GettingAndCleaningDataProject" directory (for example "cd GettingAndCleaningDataProject").
+2. If you are using R from the command line, change to the GettingAndCleaningDataProject" directory (for example "cd GettingAndCleaningDataProject").
 3. Download the data from the following url: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
   - The data can be stored in either your current working directory (GettingAndCleaningDataProject), or in the "data" directory (see [Directory Structure](#directory-structure)). The data can remain zipped or be unzipped as long as the following naming conventions are followed.
     - Zipped data must be in a file named "getdata-projectfiles-UCI HAR Dataset.zip"
     - Unzipped data must be in a directory named "UCI HAR Dataset"
-4. Start R and read in the run_analysis.R script using:
+4. Start R (or R Studio), check that your working directory is correct (getwd() should give you the /path/to/GettingAndCleaningDataProject), and read in the run_analysis.R script using:
   - source("run_analysis.R")
 5. Reading the script in will give you a runAnalysis function. Simply invoke the function using:
   - runAnalysis()
