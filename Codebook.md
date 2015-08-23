@@ -34,6 +34,7 @@ In addition, two other variables were included:
 These are included to correlate a subject with an activity and all the associated signals.
 
 ## Variables
+The names of the original variables were modified to avoid the use of dahses (-), dots (.), and abbreviations. For example, tBodyAcc-mean()-X would become timeBodyAccelerationMeanX.
 
 ### subject
 The number used to identify the subject performing the associated activities. The values in the dataset range from 1 to 30. The variable in the dataset is named as follows:
@@ -143,7 +144,27 @@ A mean and standard deviation are determined for the signal. The values are nume
   - timeBodyGyroJerkMagnitudeStandardDeviation
 
 ###fBodyAcc-XYZ
+Frequency domain body acceleration value in XYZ axes.
+Each axis is separated and a mean and standard deviation are determined. The values are numeric, and range from -1 to +1. The variables in the dataset are named as follows:
+
+  - frequencyBodyAccelerationMeanX
+  - frequencyBodyAccelerationMeanY
+  - frequencyBodyAccelerationMeanZ
+  - frequencyBodyAccelerationStandardDeviationX
+  - frequencyBodyAccelerationStandardDeviationY
+  - frequencyBodyAccelerationStandardDeviationZ
+
 ###fBodyAccJerk-XYZ
+Frequency domain body acceleration jerk value in XYZ axes.
+Each axis is separated and a mean and standard deviation are determined. The values are numeric, and range from -1 to +1. The variables in the dataset are named as follows:
+
+  - frequencyBodyAccelerationJerkMeanX
+  - frequencyBodyAccelerationJerkMeanY
+  - frequencyBodyAccelerationJerkMeanZ
+  - frequencyBodyAccelerationJerkStandardDeviationX
+  - frequencyBodyAccelerationJerkStandardDeviationY
+  - frequencyBodyAccelerationJerkStandardDeviationZ
+
 ###fBodyGyro-XYZ
 ###fBodyAccMag
 ###fBodyAccJerkMag
@@ -154,18 +175,8 @@ A mean and standard deviation are determined for the signal. The values are nume
 
 
 
-## frequencyBodyAccelerationMeanX
-## frequencyBodyAccelerationMeanY
-## frequencyBodyAccelerationMeanZ
-## frequencyBodyAccelerationStandardDeviationX
-## frequencyBodyAccelerationStandardDeviationY
-## frequencyBodyAccelerationStandardDeviationZ
-## frequencyBodyAccelerationJerkMeanX
-## frequencyBodyAccelerationJerkMeanY
-## frequencyBodyAccelerationJerkMeanZ
-## frequencyBodyAccelerationJerkStandardDeviationX
-## frequencyBodyAccelerationJerkStandardDeviationY
-## frequencyBodyAccelerationJerkStandardDeviationZ
+
+
 ## frequencyBodyGyroMeanX
 ## frequencyBodyGyroMeanY
 ## frequencyBodyGyroMeanZ
