@@ -20,3 +20,18 @@ A more complete description of the experiment, along with the original data, can
 6. The script will run and build both a tidy dataset and an analysed dataset. These will be stored in the "output" directory with the names tidy.txt and analysis.txt respectively.
 
 ## Directory Structure
+### Root directory "/"
+Contains the run_analysis.R script. Also contains the codebook and the readme.
+
+### R directory
+Contains helper scripts that are used by the main run_analysis.R script.
+
+### data directory
+The directory used to store the raw data. The data can be left in the root directory, and the script will run, but to keep things organized and the root directory clean, it is recommended that you use the data directory. The data can be stored zipped or unzipped as long as it is named as follows:
+  - Zipped data must be in a file named "getdata-projectfiles-UCI HAR Dataset.zip"
+  - Unzipped data must be in a directory named "UCI HAR Dataset
+
+### output directory
+The directory in which you will find the results of running the script. If the script runs correctly, you will find two output files here.
+  - tidy.txt - The cleaned dataset.
+  - analysis.txt - The final analysis of the cleaned dataset.
