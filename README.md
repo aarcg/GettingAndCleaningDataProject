@@ -3,7 +3,7 @@
 ## Description
 This set of scripts is used to clean and analyze data obtained from the following url: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-The cleaning process takes the original data, correlates subjects to activites and measurements, subsets the data so it only contains mean and standard deviation measurements, and cleans up variable names.
+The cleaning process takes the original data, correlates subjects to activities and measurements, subsets the data so it only contains mean and standard deviation measurements, and cleans up variable names.
 
 The analysis consists of finding the average for all the variables included in the tidy dataset for each subject performing each activity.
 
@@ -21,7 +21,7 @@ A more complete description of the experiment, along with the original data, can
   - source("run_analysis.R")
 5. Reading the script in will give you a runAnalysis function. Simply invoke the function using:
   - runAnalysis()
-6. The script will run and build both a tidy dataset and an analysed dataset. These will be stored in the "output" directory with the names tidy.txt and analysis.txt respectively.
+6. The script will run and build both a tidy dataset and an analyzed dataset. These will be stored in the "output" directory with the names tidy.txt and analysis.txt respectively.
 
 ## Directory Structure
 ### Root directory (GettingAndCleaningDataProject/)
