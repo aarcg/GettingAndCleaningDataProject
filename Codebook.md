@@ -86,7 +86,27 @@ Each axis is separated and a mean and standard deviation are determined. The val
   - timeBodyAccelerationJerkStandardDeviationZ
 
 ###tBodyGyro-XYZ
+Time domain body gyro value in XYZ axes.
+Each axis is separated and a mean and standard deviation are determined. The values are numeric, and range from -1 to +1. The variables in the dataset are named as follows:
+
+  - timeBodyGyroMeanX
+  - timeBodyGyroMeanY
+  - timeBodyGyroMeanZ
+  - timeBodyGyroStandardDeviationX
+  - timeBodyGyroStandardDeviationY
+  - timeBodyGyroStandardDeviationZ
+
 ###tBodyGyroJerk-XYZ
+Time domain body gyro jerk value in XYZ axes.
+Each axis is separated and a mean and standard deviation are determined. The values are numeric, and range from -1 to +1. The variables in the dataset are named as follows:
+
+  - timeBodyGyroJerkMeanX
+  - timeBodyGyroJerkMeanY
+  - timeBodyGyroJerkMeanZ
+  - timeBodyGyroJerkStandardDeviationX
+  - timeBodyGyroJerkStandardDeviationY
+  - timeBodyGyroJerkStandardDeviationZ
+
 ###tBodyAccMag
 ###tGravityAccMag
 ###tBodyAccJerkMag
@@ -101,18 +121,8 @@ Each axis is separated and a mean and standard deviation are determined. The val
 ###fBodyGyroJerkMag
 
 
-## timeBodyGyroMeanX
-## timeBodyGyroMeanY
-## timeBodyGyroMeanZ
-## timeBodyGyroStandardDeviationX
-## timeBodyGyroStandardDeviationY
-## timeBodyGyroStandardDeviationZ
-## timeBodyGyroJerkMeanX
-## timeBodyGyroJerkMeanY
-## timeBodyGyroJerkMeanZ
-## timeBodyGyroJerkStandardDeviationX
-## timeBodyGyroJerkStandardDeviationY
-## timeBodyGyroJerkStandardDeviationZ
+
+
 ## timeBodyAccelerationMagnitudeMean
 ## timeBodyAccelerationMagnitudeStandardDeviation
 ## timeGravityAccelerationMagnitudeMean
