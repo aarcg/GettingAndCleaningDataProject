@@ -37,10 +37,9 @@ These are included to correlate a subject with an activity and all the associate
 
 ###tBodyAcc-XYZ
 Time domain body acceleration in XYZ axes.
-Each axis is seperated and a mean and standard deviation are determined.
+Each axis is seperated and a mean and standard deviation are determined. The values are numeric, and range from -1 to +1. The variables in the dataset are named as followes:
 
   - timeBodyAccelerationMeanX
-    - A normalized value
   - timeBodyAccelerationMeanY
   - timeBodyAccelerationMeanZ
   - timeBodyAccelerationStandardDeviationX
