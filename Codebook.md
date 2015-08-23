@@ -122,8 +122,26 @@ A mean and standard deviation are determined for the signal. The values are nume
   - timeGravityAccelerationMagnitudeStandardDeviation
 
 ###tBodyAccJerkMag
+Time domain body acceleration jerk magnitude.
+A mean and standard deviation are determined for the signal. The values are numeric, and range from -1 to +1. The variables in the dataset are named as follows:
+
+  - timeBodyAccelerationJerkMagnitudeMean
+  - timeBodyAccelerationJerkMagnitudeStandardDeviation
+
 ###tBodyGyroMag
+Time domain body gyro magnitude.
+A mean and standard deviation are determined for the signal. The values are numeric, and range from -1 to +1. The variables in the dataset are named as follows:
+
+  - timeBodyGyroMagnitudeMean
+  - timeBodyGyroMagnitudeStandardDeviation
+
 ###tBodyGyroJerkMag
+Time domain body gyro jerk magnitude.
+A mean and standard deviation are determined for the signal. The values are numeric, and range from -1 to +1. The variables in the dataset are named as follows:
+
+  - timeBodyGyroJerkMagnitudeMean
+  - timeBodyGyroJerkMagnitudeStandardDeviation
+
 ###fBodyAcc-XYZ
 ###fBodyAccJerk-XYZ
 ###fBodyGyro-XYZ
@@ -133,12 +151,9 @@ A mean and standard deviation are determined for the signal. The values are nume
 ###fBodyGyroJerkMag
 
 
-## timeBodyAccelerationJerkMagnitudeMean
-## timeBodyAccelerationJerkMagnitudeStandardDeviation
-## timeBodyGyroMagnitudeMean
-## timeBodyGyroMagnitudeStandardDeviation
-## timeBodyGyroJerkMagnitudeMean
-## timeBodyGyroJerkMagnitudeStandardDeviation
+
+
+
 ## frequencyBodyAccelerationMeanX
 ## frequencyBodyAccelerationMeanY
 ## frequencyBodyAccelerationMeanZ
