@@ -3,10 +3,10 @@
 ## purpose
 This codebook is meant to expand on the variables laid out in features_info.txt contained in the data folder obtained from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-For a full explaination of how these signals were collected and processed, refer to features_info.txt. This codebook will only cover the variables considered in the analysis, and how they are named.
+For a full explanation of how these signals were collected and processed, refer to features_info.txt. This codebook will only cover the variables considered in the analysis, and how they are named.
 
 ## Selection
-The following variables were selected for use in the analysis because they are the originaly estimated varibles in the study:
+The following variables were selected for use in the analysis because they are the originally estimated variables in the study:
   - tBodyAcc-XYZ
   - tGravityAcc-XYZ
   - tBodyAccJerk-XYZ
@@ -25,7 +25,7 @@ The following variables were selected for use in the analysis because they are t
   - fBodyGyroMag
   - fBodyGyroJerkMag
 
-Of these variables, the ones that contain an XYZ component were seperated into their individual components. There are eight of these in total, leading to 24 seperate variables. The nine other measurements give a total of 33 measurements to be considered. For the analysis, both the mean and standard deviation were taken for each of the 33 measurements. This leads to a total of 66 variables in taken from the data itself.
+Of these variables, the ones that contain an XYZ component were separated into their individual components. There are eight of these in total, leading to 24 separate variables. The nine other measurements give a total of 33 measurements to be considered. For the analysis, both the mean and standard deviation were taken for each of the 33 measurements. This leads to a total of 66 variables in taken from the data itself.
 
 In addition, two other variables were included:
   - subject
@@ -36,7 +36,7 @@ These are included to correlate a subject with an activity and all the associate
 ## Variables
 
 ### subject
-The number used to identify the subject performing the associated activities. The values in the dataset range from 1 to 30. The variable in the dataset is named as followes:
+The number used to identify the subject performing the associated activities. The values in the dataset range from 1 to 30. The variable in the dataset is named as follows:
 
   - subject
 
@@ -49,12 +49,12 @@ The name of the activity being performed by the subject. The possible values are
   - WALKING_DOWNSTAIRS
   - WALKING_UPSTAIRS
 
-The variable in the dataset is named as followes:
+The variable in the dataset is named as follows:
   - activity
 
 ###tBodyAcc-XYZ
 Time domain body acceleration in XYZ axes.
-Each axis is seperated and a mean and standard deviation are determined. The values are numeric, and range from -1 to +1. The variables in the dataset are named as followes:
+Each axis is separated and a mean and standard deviation are determined. The values are numeric, and range from -1 to +1. The variables in the dataset are named as follows:
 
   - timeBodyAccelerationMeanX
   - timeBodyAccelerationMeanY
@@ -64,8 +64,8 @@ Each axis is seperated and a mean and standard deviation are determined. The val
   - timeBodyAccelerationStandardDeviationZ
 
 ###tGravityAcc-XYZ
-Time domain accelleration due to gravity in XYZ axes.
-Each axis is seperated and a mean and standard deviation are determined. The values are numeric, and range from -1 to +1. The variables in the dataset are named as followes:
+Time domain acceleration due to gravity in XYZ axes.
+Each axis is separated and a mean and standard deviation are determined. The values are numeric, and range from -1 to +1. The variables in the dataset are named as follows:
 
   - timeGravityAccelerationMeanX
   - timeGravityAccelerationMeanY
@@ -75,6 +75,16 @@ Each axis is seperated and a mean and standard deviation are determined. The val
   - timeGravityAccelerationStandardDeviationZ
 
 ###tBodyAccJerk-XYZ
+Time domain body acceleration jerk value in XYZ axes.
+Each axis is separated and a mean and standard deviation are determined. The values are numeric, and range from -1 to +1. The variables in the dataset are named as follows:
+
+  - timeBodyAccelerationJerkMeanX
+  - timeBodyAccelerationJerkMeanY
+  - timeBodyAccelerationJerkMeanZ
+  - timeBodyAccelerationJerkStandardDeviationX
+  - timeBodyAccelerationJerkStandardDeviationY
+  - timeBodyAccelerationJerkStandardDeviationZ
+
 ###tBodyGyro-XYZ
 ###tBodyGyroJerk-XYZ
 ###tBodyAccMag
@@ -90,12 +100,7 @@ Each axis is seperated and a mean and standard deviation are determined. The val
 ###fBodyGyroMag
 ###fBodyGyroJerkMag
 
-## timeBodyAccelerationJerkMeanX
-## timeBodyAccelerationJerkMeanY
-## timeBodyAccelerationJerkMeanZ
-## timeBodyAccelerationJerkStandardDeviationX
-## timeBodyAccelerationJerkStandardDeviationY
-## timeBodyAccelerationJerkStandardDeviationZ
+
 ## timeBodyGyroMeanX
 ## timeBodyGyroMeanY
 ## timeBodyGyroMeanZ
