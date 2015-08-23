@@ -34,7 +34,7 @@ In addition, two other variables were included:
 These are included to correlate a subject with an activity and all the associated signals.
 
 ## Variables
-The names of the original variables were modified to avoid the use of dahses (-), dots (.), and abbreviations. For example, tBodyAcc-mean()-X would become timeBodyAccelerationMeanX.
+The names of the original variables were modified to avoid the use of dashes (-), dots (.), and abbreviations. For example, tBodyAcc-mean()-X would become timeBodyAccelerationMeanX.
 
 ### subject
 The number used to identify the subject performing the associated activities. The values in the dataset range from 1 to 30. The variable in the dataset is named as follows:
@@ -177,14 +177,14 @@ Each axis is separated and a mean and standard deviation are determined. The val
   - frequencyBodyGyroStandardDeviationZ
 
 ###fBodyAccMag
-Frequency domain body acceleratoin magnitude.
+Frequency domain body acceleration magnitude.
 A mean and standard deviation are determined for the signal. The values are numeric, and range from -1 to +1. The variables in the dataset are named as follows:
 
   - frequencyBodyAccelerationMagnitudeMean
   - frequencyBodyAccelerationMagnitudeStandardDeviation
 
 ###fBodyAccJerkMag
-Frequency domain body acceleratoin jerk magnitude.
+Frequency domain body acceleration jerk magnitude.
 A mean and standard deviation are determined for the signal. The values are numeric, and range from -1 to +1. The variables in the dataset are named as follows:
 
   - frequencyBodyAccelerationJerkMagnitudeMean
