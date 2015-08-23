@@ -35,6 +35,23 @@ These are included to correlate a subject with an activity and all the associate
 
 ## Variables
 
+### subject
+The number used to identify the subject performing the associated activities. The values in the dataset range from 1 to 30. The variable in the dataset is named as followes:
+
+  - subject
+
+### activity
+The name of the activity being performed by the subject. The possible values are:
+  - LAYING
+  - SITTING
+  - STANDING
+  - WALKING
+  - WALKING_DOWNSTAIRS
+  - WALKING_UPSTAIRS
+
+The variable in the dataset is named as followes:
+  - activity
+
 ###tBodyAcc-XYZ
 Time domain body acceleration in XYZ axes.
 Each axis is seperated and a mean and standard deviation are determined. The values are numeric, and range from -1 to +1. The variables in the dataset are named as followes:
@@ -62,9 +79,6 @@ fBodyAccMag
 fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
-
-## subject
-## activity
 
 ## timeGravityAccelerationMeanX
 ## timeGravityAccelerationMeanY
